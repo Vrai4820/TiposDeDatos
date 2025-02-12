@@ -61,6 +61,18 @@ build CMakeFiles/TiposDeDatos.dir/conversionTipos.cpp.obj: CXX_COMPILER__TiposDe
   OBJECT_DIR = CMakeFiles\TiposDeDatos.dir
   OBJECT_FILE_DIR = CMakeFiles\TiposDeDatos.dir
 
+build CMakeFiles/TiposDeDatos.dir/conversionExplícita.cpp.obj: CXX_COMPILER__TiposDeDatos_unscanned_Debug C$:/Users/user/Desktop/CLionProjects/TiposDeDatos/conversionExplícita.cpp || cmake_object_order_depends_target_TiposDeDatos
+  DEP_FILE = CMakeFiles\TiposDeDatos.dir\conversionExplícita.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\TiposDeDatos.dir
+  OBJECT_FILE_DIR = CMakeFiles\TiposDeDatos.dir
+
+build CMakeFiles/TiposDeDatos.dir/usoDeConstantes.cpp.obj: CXX_COMPILER__TiposDeDatos_unscanned_Debug C$:/Users/user/Desktop/CLionProjects/TiposDeDatos/usoDeConstantes.cpp || cmake_object_order_depends_target_TiposDeDatos
+  DEP_FILE = CMakeFiles\TiposDeDatos.dir\usoDeConstantes.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\TiposDeDatos.dir
+  OBJECT_FILE_DIR = CMakeFiles\TiposDeDatos.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target TiposDeDatos
@@ -69,7 +81,7 @@ build CMakeFiles/TiposDeDatos.dir/conversionTipos.cpp.obj: CXX_COMPILER__TiposDe
 #############################################
 # Link the executable TiposDeDatos.exe
 
-build TiposDeDatos.exe: CXX_EXECUTABLE_LINKER__TiposDeDatos_Debug CMakeFiles/TiposDeDatos.dir/main.cpp.obj CMakeFiles/TiposDeDatos.dir/conversionTipos.cpp.obj
+build TiposDeDatos.exe: CXX_EXECUTABLE_LINKER__TiposDeDatos_Debug CMakeFiles/TiposDeDatos.dir/main.cpp.obj CMakeFiles/TiposDeDatos.dir/conversionTipos.cpp.obj CMakeFiles/TiposDeDatos.dir/conversionExplícita.cpp.obj CMakeFiles/TiposDeDatos.dir/usoDeConstantes.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\TiposDeDatos.dir
